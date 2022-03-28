@@ -44,7 +44,7 @@ for ( let i = 1 ; i <= 100; i++){
         console.log('FizzBuzz');
 
         const markupNumber = `
-        <div class="number ">
+        <div class="number red">
         <div>FizzBuzz</div>
         </div>`
     
@@ -54,7 +54,7 @@ for ( let i = 1 ; i <= 100; i++){
         console.log('Fizz');
 
         const markupNumber = `
-        <div class="number">
+        <div class="number yellow">
         <div>Fizz</div>
         </div>`
     
@@ -64,7 +64,7 @@ for ( let i = 1 ; i <= 100; i++){
         console.log('Buzz');
 
         const markupNumber = `
-        <div class="number">
+        <div class="number green">
         <div>Buzz</div>
         </div>`
     

@@ -6,14 +6,27 @@ h1{
     background-color: rgb(92, 92, 255);
     width: 80px;
     height: 80px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
 .number_box{
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
