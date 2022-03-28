@@ -2,17 +2,18 @@ h1{
     text-align: center;
 }
 
-.numbers{
+.number{
     background-color: rgb(92, 92, 255);
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.numbers-box{
+.number_box{
     display: flex;
     flex-wrap: wrap;
 }
